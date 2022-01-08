@@ -9,20 +9,20 @@
 
 	<test name="TestOnWindows11Chrome">
 		
-		<parameter name="cloud" value="true"/>
+		<parameter name="cloud" value="false"/>
 		<parameter name="os" value="Windows"/>
 		<parameter name="os_version" value="11"/>
 		<parameter name="browser" value="Chrome"/>
 		<parameter name="browser_version" value="latest"/>
 
-		<classes>
+		<!-- <classes>
 			<class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/>
-		</classes>
+		</classes> -->
 	</test> 
 	
 	<test name="TestOnWindows10Chrome">
 		
-		<parameter name="cloud" value="true"/>
+		<parameter name="cloud" value="false"/>
 		<parameter name="os" value="Windows"/>
 		<parameter name="os_version" value="10"/>
 		<parameter name="browser" value="Chrome"/>
