@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test On BrowserStack" duration-ms="29888" started-at="2022-01-08T08:27:31 IST" finished-at="2022-01-08T08:28:01 IST">
+    <groups>
+    </groups>
+    <test name="TestOnWindows11Chrome" duration-ms="29059" started-at="2022-01-08T08:27:31 IST" finished-at="2022-01-08T08:28:00 IST">
+      <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="setup" is-config="true" duration-ms="20654" started-at="2022-01-08T08:27:31 IST" finished-at="2022-01-08T08:27:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="setupDriver" is-config="true" duration-ms="1" started-at="2022-01-08T08:27:52 IST" finished-at="2022-01-08T08:27:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="login" duration-ms="4788" started-at="2022-01-08T08:27:52 IST" data-provider="Login" finished-at="2022-01-08T08:27:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="setupDriver" is-config="true" duration-ms="1" started-at="2022-01-08T08:27:56 IST" finished-at="2022-01-08T08:27:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="verifyTabs()[pri:1, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="verifyTabs" duration-ms="273" started-at="2022-01-08T08:27:56 IST" finished-at="2022-01-08T08:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTabs -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="setupDriver" is-config="true" duration-ms="0" started-at="2022-01-08T08:27:57 IST" finished-at="2022-01-08T08:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="logOutApplication()[pri:2, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="logOutApplication" duration-ms="1966" started-at="2022-01-08T08:27:57 IST" finished-at="2022-01-08T08:27:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@359f7cdf]" name="tearDown" is-config="true" duration-ms="1123" started-at="2022-01-08T08:27:59 IST" finished-at="2022-01-08T08:28:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestWithPOMWithFactory -->
+    </test> <!-- TestOnWindows11Chrome -->
+    <test name="TestOnWindows10Chrome" duration-ms="29888" started-at="2022-01-08T08:27:31 IST" finished-at="2022-01-08T08:28:01 IST">
+      <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="setup" is-config="true" duration-ms="16972" started-at="2022-01-08T08:27:31 IST" finished-at="2022-01-08T08:27:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="setupDriver" is-config="true" duration-ms="3" started-at="2022-01-08T08:27:52 IST" finished-at="2022-01-08T08:27:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="login" duration-ms="5840" started-at="2022-01-08T08:27:52 IST" data-provider="Login" finished-at="2022-01-08T08:27:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="setupDriver" is-config="true" duration-ms="0" started-at="2022-01-08T08:27:57 IST" finished-at="2022-01-08T08:27:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="verifyTabs()[pri:1, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="verifyTabs" duration-ms="157" started-at="2022-01-08T08:27:57 IST" finished-at="2022-01-08T08:27:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTabs -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="setupDriver" is-config="true" duration-ms="1" started-at="2022-01-08T08:27:58 IST" finished-at="2022-01-08T08:27:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="logOutApplication()[pri:2, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="logOutApplication" duration-ms="1827" started-at="2022-01-08T08:27:58 IST" finished-at="2022-01-08T08:27:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestWithPOMWithFactory@36902638]" name="tearDown" is-config="true" duration-ms="1221" started-at="2022-01-08T08:27:59 IST" finished-at="2022-01-08T08:28:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestWithPOMWithFactory -->
+    </test> <!-- TestOnWindows10Chrome -->
+  </suite> <!-- Test On BrowserStack -->
+</testng-results>

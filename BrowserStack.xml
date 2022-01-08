@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="BrowserStackSuite">
+	<test name="TestWindows">
+		<parameter name="os" value="Windows" />
+		<parameter name="os_version" value="11" />
+		<parameter name="browser" value="Chrome" />
+		<parameter name="browser_version" value="latest" />
+		<classes>
+			<class name="com.learnautomation.testing.SeleniumGridWindows" />
+		</classes>
+	</test>
+
+	<test name="TestOnOSx">
+		<parameter name="os" value="OS X" />
+		<parameter name="os_version" value="Monterey" />
+		<parameter name="browser" value="Safari" />
+		<parameter name="browser_version" value="15.0" />
+		<classes>
+			<class name="com.learnautomation.testing.SeleniumGridWindows" />
+		</classes>
+	</test>
+	
+	<test name="TestOnDevices">
+		<parameter name="os_version" value="15" />
+		<parameter name="device" value="iPhone 13 Pro" />
+		<parameter name="real_mobile" value="true" />
+		<classes>
+			<class name="com.learnautomation.testing.SeleniumGridMobileDevice" />
+		</classes>
+	</test>
+
+</suite> 

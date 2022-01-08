@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 213.901 s <<< FAILURE! - in TestSuite
+com.learnautomation.testcases.UserCreateTest.createUser[Admin, John Smith, Sai_502, Abcd@1234](1)  Time elapsed: 15.861 s  <<< FAILURE!
+java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+	at com.learnautomation.testcases.UserCreateTest.createUser(UserCreateTest.java:50)
+

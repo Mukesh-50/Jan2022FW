@@ -1,0 +1,4 @@
+com\learnautomation\testcases\LoginTestWithoutPOM.class
+com\learnautomation\testcases\LoginTestWithPOM.class
+com\learnautomation\testcases\LoginTestWithPOMWithFactory.class
+com\learnautomation\testcases\UserCreateTest.class

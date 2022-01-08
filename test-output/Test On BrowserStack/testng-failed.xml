@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test On BrowserStack]" parallel="tests">
+  <listeners>
+    <listener class-name="com.learnautomation.utility.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="3" name="TestOnWindows10Chrome(failed)" parallel="tests">
+    <parameter name="cloud" value="true"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_version" value="latest"/>
+    <classes>
+      <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory">
+        <methods>
+          <include name="login"/>
+          <include name="setupDriver"/>
+          <include name="verifyTabs"/>
+          <include name="tearDown"/>
+          <include name="logOutApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.LoginTestWithPOMWithFactory -->
+    </classes>
+  </test> <!-- TestOnWindows10Chrome(failed) -->
+  <test thread-count="3" name="TestOnWindows11Chrome(failed)" parallel="tests">
+    <parameter name="cloud" value="true"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="11"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_version" value="latest"/>
+    <classes>
+      <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory">
+        <methods>
+          <include name="login"/>
+          <include name="setupDriver"/>
+          <include name="verifyTabs"/>
+          <include name="tearDown"/>
+          <include name="logOutApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.LoginTestWithPOMWithFactory -->
+    </classes>
+  </test> <!-- TestOnWindows11Chrome(failed) -->
+</suite> <!-- Failed suite [Test On BrowserStack] -->

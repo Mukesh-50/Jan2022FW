@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BrowserStackSuite" duration-ms="68155" started-at="2022-01-08T00:59:49 IST" finished-at="2022-01-08T01:00:57 IST">
+    <groups>
+    </groups>
+    <test name="TestOnOSx" duration-ms="67589" started-at="2022-01-08T00:59:49 IST" finished-at="2022-01-08T01:00:57 IST">
+      <class name="com.learnautomation.testcases.UserCreateTest">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="setup" is-config="true" duration-ms="12052" started-at="2022-01-08T00:59:49 IST" finished-at="2022-01-08T01:00:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="setupDriver" is-config="true" duration-ms="0" started-at="2022-01-08T01:00:02 IST" finished-at="2022-01-08T01:00:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="login" duration-ms="7394" started-at="2022-01-08T01:00:02 IST" data-provider="Login" finished-at="2022-01-08T01:00:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="setupDriver" is-config="true" duration-ms="0" started-at="2022-01-08T01:00:10 IST" finished-at="2022-01-08T01:00:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="FAIL" signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="createUser" duration-ms="43108" started-at="2022-01-08T01:00:10 IST" data-provider="User" depends-on-methods="com.learnautomation.testcases.UserCreateTest.login" finished-at="2022-01-08T01:00:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sai_502]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abcd@1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:163)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:197)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:193)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:631)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:628)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+at com.learnautomation.pages.AdminPage.isSuccessMsgDisplayed(AdminPage.java:65)
+at com.learnautomation.testcases.UserCreateTest.createUser(UserCreateTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="setupDriver" is-config="true" duration-ms="5" started-at="2022-01-08T01:00:54 IST" finished-at="2022-01-08T01:00:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="logOutApplication()[pri:2, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="logOutApplication" duration-ms="1482" started-at="2022-01-08T01:00:54 IST" depends-on-methods="com.learnautomation.testcases.UserCreateTest.login" finished-at="2022-01-08T01:00:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@188715b5]" name="tearDown" is-config="true" duration-ms="1297" started-at="2022-01-08T01:00:55 IST" finished-at="2022-01-08T01:00:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.UserCreateTest -->
+    </test> <!-- TestOnOSx -->
+    <test name="TestWindows" duration-ms="68154" started-at="2022-01-08T00:59:49 IST" finished-at="2022-01-08T01:00:57 IST">
+      <class name="com.learnautomation.testcases.UserCreateTest">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="setup" is-config="true" duration-ms="18596" started-at="2022-01-08T00:59:49 IST" finished-at="2022-01-08T01:00:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="login" duration-ms="6031" started-at="2022-01-08T01:00:08 IST" data-provider="Login" finished-at="2022-01-08T01:00:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="setupDriver" is-config="true" duration-ms="0" started-at="2022-01-08T01:00:08 IST" finished-at="2022-01-08T01:00:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="setupDriver" is-config="true" duration-ms="1" started-at="2022-01-08T01:00:14 IST" finished-at="2022-01-08T01:00:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="createUser" duration-ms="24506" started-at="2022-01-08T01:00:14 IST" data-provider="User" depends-on-methods="com.learnautomation.testcases.UserCreateTest.login" finished-at="2022-01-08T01:00:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[John Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sai_502]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abcd@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="setupDriver" is-config="true" duration-ms="0" started-at="2022-01-08T01:00:38 IST" finished-at="2022-01-08T01:00:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="logOutApplication()[pri:2, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="logOutApplication" duration-ms="17566" started-at="2022-01-08T01:00:38 IST" depends-on-methods="com.learnautomation.testcases.UserCreateTest.login" finished-at="2022-01-08T01:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.UserCreateTest@1139b2f3]" name="tearDown" is-config="true" duration-ms="1297" started-at="2022-01-08T01:00:56 IST" finished-at="2022-01-08T01:00:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.UserCreateTest -->
+    </test> <!-- TestWindows -->
+  </suite> <!-- BrowserStackSuite -->
+</testng-results>

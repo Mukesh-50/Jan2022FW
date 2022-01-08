@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BrowserStackSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.learnautomation.utility.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="3" verbose="0" name="TestOnOSx(failed)" parallel="tests">
+    <parameter name="cloud" value="true"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="8.1"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_version" value="latest"/>
+    <classes>
+      <class name="com.learnautomation.testcases.UserCreateTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="createUser" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.learnautomation.testcases.UserCreateTest -->
+    </classes>
+  </test> <!-- TestOnOSx(failed) -->
+</suite> <!-- Failed suite [BrowserStackSuite] -->
