@@ -8,7 +8,7 @@ public class Sample
 	@Test
 	public void sampleTest()
 	{
-		System.out.println("Sample Test Executed");
+		System.out.println("Sample Test Executed with git");
 	}
 
 }
