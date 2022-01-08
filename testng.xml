@@ -9,7 +9,7 @@
 
 	<test name="TestOnWindows11Chrome">
 		
-		<parameter name="cloud" value="false"/>
+		<parameter name="cloud" value="true"/>
 		<parameter name="os" value="Windows"/>
 		<parameter name="os_version" value="11"/>
 		<parameter name="browser" value="Chrome"/>
