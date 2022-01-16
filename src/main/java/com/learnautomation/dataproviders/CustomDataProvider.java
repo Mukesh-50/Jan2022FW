@@ -16,6 +16,12 @@ public class CustomDataProvider {
 		return ExcelUtility.getDataFromSheet("User");
 	}
 	
+	@DataProvider(name="EmployeeCreation")
+	public static Object[][] getEmpData()
+	{
+		return ExcelUtility.getDataFromSheet("EmpData");
+	}
+	
 	/*
 	@DataProvider(name="User")
 	public static Object[][] getUserData()
