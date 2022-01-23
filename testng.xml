@@ -7,22 +7,22 @@
 			class-name="com.learnautomation.utility.ExtentTestNGITestListener" />
 	</listeners>
 
-	<test name="TestOnWindows11Chrome">
+	<test name="TestOnWindows10ChromeRecruitmentTest">
 		
-		<parameter name="cloud" value="true"/>
+		<parameter name="cloud" value="false"/>
 		<parameter name="os" value="Windows"/>
-		<parameter name="os_version" value="11"/>
+		<parameter name="os_version" value="10"/>
 		<parameter name="browser" value="Chrome"/>
 		<parameter name="browser_version" value="latest"/>
 
 		 <classes>
-			<class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/>
+			<class name="com.learnautomation.testcases.RecruitmentTest"/>
 		</classes> 
 	</test> 
 	
-	<test name="TestOnWindows10Chrome">
+<!-- 	<test name="TestOnWindows10Chrome">
 		
-		<parameter name="cloud" value="true"/>
+		<parameter name="cloud" value="false"/>
 		<parameter name="os" value="Windows"/>
 		<parameter name="os_version" value="10"/>
 		<parameter name="browser" value="Chrome"/>
@@ -31,6 +31,6 @@
 		<classes>
 			<class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/>
 		</classes>
-	</test> 
+	</test>  -->
 	
 </suite>
