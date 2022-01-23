@@ -17,6 +17,7 @@ public class HomePage
 	By adminTab=By.xpath("//b[text()='Admin']");
 	By welcomeTab=By.xpath("//a[@id='welcome']");
 	By logout=By.xpath("//a[text()='Logout']");
+	private By recruitmentTab=By.id("menu_recruitment_viewRecruitmentModule");
 	
 	public LoginPage logOutFromApplication()
 	{
@@ -37,6 +38,12 @@ public class HomePage
 	{
 		driver.findElement(adminTab).click();
 		return new AdminPage(driver);
+	}
+	
+	public RecruitmentPage clickOnRecruitMent()
+	{
+		driver.findElement(recruitmentTab).click();
+		return new RecruitmentPage(driver);
 	}
 	
 	
