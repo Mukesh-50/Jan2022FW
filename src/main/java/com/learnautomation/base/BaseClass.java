@@ -37,7 +37,8 @@ public abstract class BaseClass {
 			caps.setCapability("browser",browser);
 			caps.setCapability("browser_version",browser_version);
 			
-			final String USERNAME = ConfigUtility.getValue("USERNAME");
+			//final String USERNAME = ConfigUtility.getValue("USERNAME");
+			final String USERNAME = "mukeshotwani_p5NVfe";
 			final String AUTOMATE_KEY =ConfigUtility.getValue("AUTOMATE_KEY");
 			final String finalURL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 			
